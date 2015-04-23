@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/rish/testa/issues"
   },
-  "homepage": "https://github.com/rish/testa"
+  "homepage": "https://github.com/rish/testa",
+  "dependencies": {
+    "rethinkdb": "^2.0.0"
+  }
 }
