@@ -24,6 +24,7 @@
     "rethinkdb": "^2.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.11"
+    "gulp": "^3.8.11",
+    "gulp-live-server": "0.0.14"
   }
 }
