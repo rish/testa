@@ -22,5 +22,8 @@
   "dependencies": {
     "express": "^4.12.3",
     "rethinkdb": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11"
   }
 }
