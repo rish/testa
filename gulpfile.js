@@ -1,6 +1,6 @@
 var gulp = require('gulp');
-var gls = require('gulp-live-server');
 var bs = require('browser-sync').create();
+var nodemon = require('gulp-nodemon');
 
 // TODO
 // Set up a seperate server for the view layer and have server.js as
@@ -12,8 +12,10 @@ gulp.task('default', ['server', 'browser-sync'], function() {
 });
 
 gulp.task('server', function() {
-  var server = gls('server.js');
-  server.start();
+  nodemon({
+    script: 'server.js',
+    ext: 'js'
+  });
 })
 
 gulp.task('browser-sync', function() {

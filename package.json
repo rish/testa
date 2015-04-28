@@ -26,6 +26,6 @@
   "devDependencies": {
     "browser-sync": "^2.6.5",
     "gulp": "^3.8.11",
-    "gulp-live-server": "0.0.14"
+    "gulp-nodemon": "^2.0.2"
   }
 }
