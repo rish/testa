@@ -21,7 +21,8 @@
   "homepage": "https://github.com/rish/testa",
   "dependencies": {
     "express": "^4.12.3",
-    "rethinkdb": "^2.0.0"
+    "rethinkdb": "^2.0.0",
+    "thinky": "^2.0.2"
   },
   "devDependencies": {
     "browser-sync": "^2.6.5",
