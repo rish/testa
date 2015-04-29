@@ -20,6 +20,9 @@ gulp.task('server', function() {
 
 gulp.task('browser-sync', function() {
   bs.init({
-    proxy: "http://localhost:1337"
+    server: {
+      baseDir: 'app/views',
+      index: 'layout.html'
+    }
   });
 });
